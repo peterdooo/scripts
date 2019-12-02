@@ -1,12 +1,6 @@
 require 'json'
 
-k8sContexts = ["gke_om-shopperexchange-production_us-central1-a_apps-central"]
-
-#k8sContexts = ["gke_ops-staging-179618_us-central1_apps"] 
-
-#k8sContexts = ["gke_ops-production_us-west1-a_tools-environment","gke_ops-production_us-west2-b_jenkins","gke_ops-staging-179618_us-central1-a_jenkins-cd"]
-
-#k8sContexts = ["gke_om-shopperexchange-staging_us-central1-a_apps-central","gke_om-shopperexchange-production_us-central1-a_apps-central","gke_poc-tier1_us-central1_apps","gke_production-tier1_us-central1_apps","gke_sandbox-tier1_us-central1_apps","gke_staging-tier1_us-central1_apps"] 
+k8sContexts = ["insert Enivronments"]
 
 tmp_status = `ls -ltr | grep tmp`
 
